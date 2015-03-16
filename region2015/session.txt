@@ -1,0 +1,63 @@
+R version 3.1.2 (2014-10-31)
+Platform: x86_64-apple-darwin13.4.0 (64-bit)
+
+locale:
+[1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
+
+attached base packages:
+[1] tools     parallel  stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+ [1] maptools_0.8-34  rgdal_0.8-16     ohicore_0.1      yaml_2.1.13      brew_1.0-6       jsonlite_0.9.14  shinyapps_0.3.63 shiny_0.11.1    
+ [9] git2r_0.4        stringr_0.6.2    dplyr_0.4.1      raster_2.3-24    sp_1.0-17       
+
+loaded via a namespace (and not attached):
+ [1] assertthat_0.1     colorspace_1.2-4   DBI_0.3.1          digest_0.6.8       evaluate_0.5.5     foreign_0.8-62     formatR_1.0       
+ [8] ggplot2_1.0.0      ggvis_0.4          grid_3.1.2         gtable_0.1.2       htmltools_0.2.6    httpuv_1.3.2       httr_0.6.1        
+[15] knitr_1.9          lattice_0.20-29    lazyeval_0.1.10    magrittr_1.5       markdown_0.7.4     MASS_7.3-37        mime_0.2          
+[22] mnormt_1.5-1       munsell_0.4.2      plyr_1.8.1         proto_0.3-10       psych_1.5.1        R6_2.0.1           rCharts_0.4.1     
+[29] RColorBrewer_1.1-2 Rcpp_0.11.4        reshape2_1.4.1     RJSONIO_1.3-0      scales_0.2.4       whisker_0.3-2      xtable_1.7-4      
+[36] zoo_1.7-11        
+
+
+
+Package: ohicore
+Description: A collection of functions for generically calculating the Ocean
+    Health Index scores as well as individual goals and sub-goals.
+Version: 0.1
+Date: 2013-09-25
+Title: Ocean Health Index calculation package
+Author: Ben Best, Steve Hastings, Darren Hardy
+Maintainer: Ben Best <bbest@nceas.ucsb.edu>
+License: MIT
+LazyData: TRUE
+Depends: R (>= 3.1.0)
+Imports: RColorBrewer, RJSONIO, dplyr (>= 0.2), ggplot2 (>= 1.0.0),
+        ggvis (>= 0.4), httr, markdown (>= 0.6.3), plyr (>= 1.8.0),
+        rCharts, reshape2, shiny (>= 0.10.0), stringr, knitr (>= 1.5)
+Suggests: testthat
+Collate: 'CalculateAll.R' 'CalculateGoalIndex.R'
+        'CalculatePressuresAll.R' 'CalculatePressuresComponent.R'
+        'CalculatePressuresMatrix.R' 'CalculatePressuresScore.R'
+        'CalculateResilienceAll.R' 'CalculateResilienceComponent.R'
+        'CalculateResilienceScore.R' 'CalculateStatusComponent.R'
+        'CalculateSubgoal.R' 'CheckLayers.R' 'Conf.R' 'Layers.R'
+        'PlotChloroplethMap.R' 'PlotFlower.R' 'ReportScores.R'
+        'ReportScoresComparison.R' 'ScoreScaling.R'
+        'SelectLayersData.R' 'SpatialSchemes.R'
+        'TransformSpatialScheme.R' 'aster.R' 'data.R'
+        'gapfill_georegions.R' 'get_scenarios.R' 'launch_app.R'
+        'launch_cmp.R' 'name_to_rgn.R' 'read_git_csv.R'
+        'shp_to_geojson.R' 'trace_git_csv_value.R' 'write_shortcuts.R'
+        'zzz.R'
+RemoteType: github
+RemoteHost: api.github.com
+RemoteRepo: ohicore
+RemoteUsername: ohi-science
+RemoteRef: master
+RemoteSha: 2f7a3d7b9103fca1885b91ae0f7afca9ce273f43
+GithubRepo: ohicore
+GithubUsername: ohi-science
+GithubRef: master
+GithubSHA1: 2f7a3d7b9103fca1885b91ae0f7afca9ce273f43
+Built: R 3.1.2; ; 2015-02-09 17:26:34 UTC; unix
