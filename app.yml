@@ -1,0 +1,21 @@
+# configuration for https://ohi-science.shinyapps.io/gye_app
+study_area:       1
+git_owner:        OHI-Science
+git_repo:         gye
+git_slug:         OHI-Science/gye
+git_url:          https://github.com/OHI-Science/gye
+app_url:          https://ohi-science.shinyapps.io/gye_app
+default_branch:   published
+default_scenario: subcountry2014
+debug:            False
+last_updated:     2015-03-16
+ohicore_app:
+  git_owner: ohi-science
+  git_repo: ohicore
+  git_branch: master
+  git_commit: 2f7a3d7b9103fca1885b91ae0f7afca9ce273f43
+
+tabs_hide:        
+- Calculate
+- Report
+
