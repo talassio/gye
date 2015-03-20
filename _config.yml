@@ -11,9 +11,9 @@ study_area:  1
 git_owner:   OHI-Science
 git_repo:    gye
 git_slug:    OHI-Science/gye
-app_url:     https://ohi-science.shinyapps.io/gye_app
+app_url:     https://ohi-science.nceas.ucsb.edu/gye_app
 
-default_branch_scenario: published/subcountry2014
+default_branch_scenario: published/region2015
 
 # Jekyll configuration
 
