@@ -49,7 +49,6 @@ if (!exists('dir_scenario')){
     fetch(repo, 'origin')
     pull(repo)
   }
-  system(sprintf('chmod g+w -R --silent %s', dir_repo))
   repo <<- repo
 
   # archive to repository/branch/scenario
