@@ -1,0 +1,21 @@
+# configuration for https://ohi-science.nceas.ucsb.edu/gye
+study_area:       Gulfo de Guayaquil
+git_owner:        OHI-Science
+git_repo:         gye
+git_slug:         OHI-Science/gye
+git_url:          https://github.com/OHI-Science/gye
+app_url:          http://ohi-science.nceas.ucsb.edu/gye
+default_branch:   published
+default_scenario: region2015
+debug:            False
+last_updated:     2015-03-23
+ohicore_app:
+  git_owner: ohi-science
+  git_repo: ohicore
+  git_branch: dev
+  git_commit: 4430cb9fbd06adcb7bb7803f4542714f2fd01b19
+
+tabs_hide:        
+- Calculate
+- Report
+
