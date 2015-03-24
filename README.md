@@ -1,4 +1,4 @@
-# Ocean Health Index for Gulfo de Guayaquil [gye]
+# Ocean Health Index for 1 [gye]
 
 Build status of branches:
 

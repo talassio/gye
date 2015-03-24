@@ -6,8 +6,8 @@ branches:
 
 env:
   global:
-  - default_branch_scenario="region2015/published"
-  - study_area="Gulfo de Guayaquil"
+  - default_branch_scenario="published/region2015"
+  - study_area="1"
 
 matrix:
   fast_finish: true # finish at first failure
