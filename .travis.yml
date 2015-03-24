@@ -1,8 +1,0 @@
-language: c
-branches:
-  only:
-  - draft
-  - gh-pages
-env:
-  global:
-    secure: Ut/QBpKl/eF9+Fw4WJ3DWP+NxZmvrz7iMztKb2ZPMuNrc6+uvmHXVKgbX6rT9rW3Iu0X3IG5eO4czUg0tMvC9sz5QNqjh1+RyAtJqb/7/GB7BWNZ53n7yCLHoEgTN8LpupOv1cc1vAhIG9b2/7+ZJxbl+j5gxFVqbczlzbsqsM4=
