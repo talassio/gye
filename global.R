@@ -107,7 +107,6 @@ if (!exists('dir_scenario')){
   tabs_hide <<- ''
   #dir_repo  <<- dirname(dir_scenario)
   dir_repo  <<- 'github'
-  #browser()
   repo = git2r::repository(dir_repo)
   git_head <<- git2r::commits(repo)[[1]]
 }
