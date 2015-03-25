@@ -1,13 +1,13 @@
 # Site wide configuration for https://ohi-science.org/gye
-title:       "OHI Gulfo de Guayaquil"
-description: "Ocean Health Index for Gulfo de Guayaquil"
+title:       "OHI Golfo de Guayaquil"
+description: "Ocean Health Index for Golfo de Guayaquil"
 flag:        flag_80x40.png
 logo:        120x120.gif
 teaser:      400x250.gif
 locale:      en_US
 url:         //ohi-science.org/gye
 baseurl:     /gye
-study_area:  Gulfo de Guayaquil
+study_area:  Golfo de Guayaquil
 git_owner:   OHI-Science
 git_repo:    gye
 git_slug:    OHI-Science/gye
