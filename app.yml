@@ -13,9 +13,8 @@ ohicore_app:
   git_owner: ohi-science
   git_repo: ohicore
   git_branch: dev
-  git_commit: fd0639867520f7d971241aec2998600162dd006d
+  git_commit: 3881bc4775d1769b5fc6fbfb9c2127a8349f8e90
 
 tabs_hide:        
-- Calculate
-- Report
+''
 
