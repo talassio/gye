@@ -1,4 +1,4 @@
-# Ocean Health Index for 1 [gye]
+# Ocean Health Index for Golfo de Guayaquil [gye]
 
 Build status of branches:
 
