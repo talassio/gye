@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Layers"
-excerpt: "OHI layers for 1"
+excerpt: "OHI layers for Golfo de Guayaquil"
 share: false
 ads: false
 branch_scenario: draft/region2015
