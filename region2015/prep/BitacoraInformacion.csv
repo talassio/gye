@@ -19,4 +19,20 @@ Fecha;Hora;META;SUBMETA;Consultor;targets;layer;Nombre Archivo;Carpeta;Path;Desc
 ;;Pesca Artesanal;;Geovagi Flores;AO;ao_need;ao_need_gye2015_GF.xlsx;INFORMACION;Google Drive\INDICE DE SALUD DEL OCEANO GG\INFORMACION\02 Pesca Artesanal;Pobreza por Necesidades Basicas Insatisfechas 1990-2001-2010;cambiar id de Santa Elena a 6
 ;;Almacenamiento de Carbono;;Jimmy Martillo;HAB;hab_extent;hab_extent_gye2015_TG;INFORMACION;Google Drive\INDICE DE SALUD DEL OCEANO GG\INFORMACION\CSV\04 Almacenamiento de Carbono;extension del manglar en km2;COMPLETO
 ;;Almacenamiento de Carbono;;Jimmy Martillo;CS;cs_habitat_extent;cs_habitat_extent_gye2015_TG;INFORMACION;Google Drive\INDICE DE SALUD DEL OCEANO GG\INFORMACION\04 Almacenamiento de Carbono;;
+;;Almacenamiento de Carbono;;Talita Gomes;HAB;hab_health;hab_health_gye2015_TG;INFORMACION;Google Drive\INDICE DE SALUD DEL OCEANO GG\INFORMACION\CSV\04 Almacenamiento de Carbono;porcentaje de manglar con respecto al año 1991;COMPLETO
+;;Almacenamiento de Carbono;;;HAB;hab_trend;;;;;Falta establecer pendiente para tendencia
+;;Almacenamiento de Carbono;;Jimmy Martillo;;;extension_maglar_guayas2015;INFORMACION;Google Drive\INDICE DE SALUD DEL OCEANO GG\INFORMACION\CSV\04 Almacenamiento de Carbono;extension de manglar por parroquias de Guayas 1969-2006 solo años disponibles;
+;;Almacenamiento de Carbono;;;;;extension_manglar_ElOro2015;INFORMACION;Google Drive\INDICE DE SALUD DEL OCEANO GG\INFORMACION\CSV\04 Almacenamiento de Carbono;extension de manglar por parroquias de El Oro 1969-2006 solo años disponibles;
+;;Almacenamiento de Carbono;;Jimmy Martillo, Talita Gomes;;;manglar.xlsx;INFORMACION;Google Drive\INDICE DE SALUD DEL OCEANO GG\INFORMACION\CSV\04 Almacenamiento de Carbono;toda la informacion disponible con respecto a manglar, extension,estado, tendencia, y salud;
+;;Proteccion Costera;;Jimmy Martillo, Talita Gomes;;;Proteccion Costera (1) 69-99-06;INFORMACION;Google Drive\INDICE DE SALUD DEL OCEANO GG\INFORMACION\CSV\05 Proteccion Costera;extension de manglar 1 km costa adentro y km costa afuera, Guayas y El Oro;
+;;Proteccion Costera;;;;hab_health;;;;;Falta establecer año de referencia
+;;Proteccion Costera;;;;hab_trend;;;;;Falta establecer la pendiente para los años de datos disponibles
+;;;;;;cp_habitat_extent_rank_gl2014;;;;;Falta establecer rank para protección costera
+;;Turismo Y Recreacion;;Antonio Perrone;;;poblacion economicamente activa.xlsx;;Google Drive\INDICE DE SALUD DEL OCEANO GG\INFORMACION\06 Turismo y Recreacion;;
+;;Turismo Y Recreacion;;Antonio Perrone;;tr_visitors_inter;;;;;
+;;Turismo Y Recreacion;;Antonio Perrone;;tr_visitors_local;;;;;
+;;Turismo Y Recreacion;;Antonio Perrone;;tr_percent_inter;;;;;
+;;Turismo Y Recreacion;;Antonio Perrone;;tr_percent_local;;;;;
+;;Turismo Y Recreacion;;Antonio Perrone;;tr_target_total;;;;;
+;;Turismo Y Recreacion;;Antonio Perrone;;tr_sustainability;;;;;
 ;;;;;;;;;;;
