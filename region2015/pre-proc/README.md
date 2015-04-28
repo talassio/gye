@@ -4,27 +4,29 @@ author: "AM Sajo Castelli"
 date: "27/04/2015"
 output: html_document
 ---
-# 27/04/2015 Construcción de layers (folder `AO/`)
+# 27/04/2015 Construcción de layers (folder `gye/region2015/pre-proc/AO/`)
 ![task:incomplete](https://img.shields.io/badge/task-incomplete-red.svg)
 
-Se construyen los layes
+Se construyen los layers
 **ao_need**, **ao_access** y **ao_sao**
 con información local. 
 Fuente: `Oportunidad de pesca artesanal (1).xlsx@Base`
 
-## Layer ao_access (reemplaza)
+## Layer ao_access (remplaza)
 ![subtask:complete](https://img.shields.io/badge/subtask-complete-brightgreen.svg)
 
 `ao_access_loc2009.csv` reemplaza `ao_access_gl2014.csv`.
 Las variables presentes son `rgn_id` y `value` tal como en la versión global.
 
-## Layer ao_need (reemplaza)
+## Layer ao_need (remplaza)
 ![status:pending](https://img.shields.io/badge/status-pending-blue.svg)
 ![subtask:incomplete](https://img.shields.io/badge/subtask-incomplete-red.svg)
 
 **ES UNA SERIE DE TIEMPO, DONDE SACAR LOS DATOS**
 `ao_need_loc2010.csv` reemplaza `ao_need_gl2014.csv`.
 Las variables presentes son `rgn_id`, `year` y `value` tal como en la versión global.
+`year` solo contiene 2010 y esto
+hace que la tendencia sea `NA` y en consecuencia algunos scores salen `NA`.
 
 ## Layer ao_sao (nuevo)
 ![status:pending](https://img.shields.io/badge/status-pending-blue.svg)
@@ -32,8 +34,7 @@ Las variables presentes son `rgn_id`, `year` y `value` tal como en la versión g
 
 **PREGUNTAR SI ES UNA SERIE DE TIEMPO, DE SER ASI, DONDE SACAR LOS DATOS**
 `ao_sao_loc2010.csv` nueva capa.
-Las variables presentes son `rgn_id`, `year` y `value`. `year` solo contiene 2010 y esto
-hace que la tendencia sea `NA` y en consecuencia algunos scores salen `NA`.
+Las variables presentes son `rgn_id`, `year` y `value`. 
 
 ## Registro de estas nuevas capas en layers.csv (actualización)
 ![subtask:complete](https://img.shields.io/badge/subtask-complete-brightgreen.svg)
