@@ -34,9 +34,8 @@ hace que la tendencia sea `NA` y en consecuencia algunos scores salen `NA`.
 ![status:pending](https://img.shields.io/badge/status-pending-blue.svg)
 ![subtask:incomplete](https://img.shields.io/badge/subtask-incomplete-red.svg)
 
-**PREGUNTAR SI ES UNA SERIE DE TIEMPO, DE SER ASI, DONDE SACAR LOS DATOS**
 `ao_sao_loc2010.csv` nueva capa.
-Las variables presentes son `rgn_id`, `year` y `value`. 
+Las variables presentes son `rgn_id`, ~~`year`~~ y `value`. 
 
 ## Registro de estas nuevas capas en layers.csv (actualización)
 ![subtask:complete](https://img.shields.io/badge/subtask-complete-brightgreen.svg)
