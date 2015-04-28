@@ -4,7 +4,9 @@ author: "AM Sajo Castelli"
 date: "27/04/2015"
 output: html_document
 ---
-# 27/04/2015 Construcción de layers (folder `gye/region2015/pre-proc/AO/`)
+# Construcción de layers
+`talassio/gye/region2015/pre-proc/AO/`
+
 ![task:incomplete](https://img.shields.io/badge/task-incomplete-red.svg)
 
 Se construyen los layers
